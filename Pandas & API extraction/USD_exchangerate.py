@@ -1,7 +1,6 @@
 import requests
 import json
 import pandas as pd
-import pprint
 
 
 url = 'https://open.er-api.com/v6/latest/USD'

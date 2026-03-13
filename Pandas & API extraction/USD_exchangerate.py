@@ -1,7 +1,6 @@
 import requests
 import json
 import pandas as pd
-import pprint
 
 
 url = 'https://open.er-api.com/v6/latest/USD'
@@ -35,4 +34,4 @@ pd.set_option('display.max_rows', None)
 print(df)
 
 df.to_csv("USD_exchangerate.csv", index=True)
-#print(currency)
+
